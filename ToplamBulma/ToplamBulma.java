@@ -15,6 +15,6 @@ public class ToplamBulma {
             }
         }while (k%2 ==0);
 
-        System.out.println("Cift ve 4`e bolunebilen sayilarin toplami: " + total);
+        System.out.println("Sayilarin toplami: " + total);
     }
 }
