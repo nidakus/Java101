@@ -10,7 +10,7 @@ public class ToplamBulma {
             System.out.print("Sayi Giriniz: ");
             k = scan.nextInt();
 
-            if((k%2 ==0) && (k%4 == 0)){
+            if(k%4 == 0){
                total += k;
             }
         }while (k%2 ==0);
